@@ -22,7 +22,7 @@ async function addTask() {
   });
 
   input.value = "";
-  loadTasks();   // update list without refresh
+  loadTasks(); 
 }
 
 loadTasks();
